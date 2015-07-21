@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Messenger.apk:system/priv-app/Messenger.apk \
     vendor/aosip/overlay/common/packages/apps/Launcher.apk:system/app/Google_Launcher.apk \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
-    vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/app/Google_Chrome.apk \
+    vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/priv-app/Google_Chrome.apk \
 
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_versions.mk
