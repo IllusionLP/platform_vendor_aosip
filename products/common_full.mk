@@ -37,13 +37,17 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
     vendor/aosip/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/aosip/system/overlay/Maui_Settings.apk:system/vendor/overlay/Maui_Settings.apk \
+    vendor/aosip/system/overlay/Maui_Frameworks.apk:system/vendor/overlay/Maui_Frameworks.apk \
+    vendor/aosip/system/overlay/Maui_SystemUI.apk:system/vendor/overlay/Maui_SystemUI.apk \
+    vendor/aosip/system/overlay/Maui.zip:system/app/Maui.zip
 
 # Google apps
 PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Messenger.apk:system/priv-app/Messenger.apk \
     vendor/aosip/overlay/common/packages/apps/Launcher.apk:system/app/Google_Launcher.apk \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
-    vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/app/Google_Chrome.apk \
+    vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/priv-app/Google_Chrome.apk \
 
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_versions.mk
