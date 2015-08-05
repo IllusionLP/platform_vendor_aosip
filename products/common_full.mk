@@ -36,11 +36,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #extras
 PRODUCT_COPY_FILES += \
     vendor/aosip/prebuilt/common/etc/UPDATE-SuperSU.zip:system/addon.d/UPDATE-SuperSU.zip \
-    vendor/aosip/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
-    vendor/aosip/system/overlay/Maui_Settings.apk:system/vendor/overlay/Maui_Settings.apk \
-    vendor/aosip/system/overlay/Maui_Frameworks.apk:system/vendor/overlay/Maui_Frameworks.apk \
-    vendor/aosip/system/overlay/Maui_SystemUI.apk:system/vendor/overlay/Maui_SystemUI.apk \
-    vendor/aosip/system/overlay/Maui.zip:system/app/Maui.zip
+    vendor/aosip/prebuilt/common/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon 
 
 # Google apps
 PRODUCT_COPY_FILES += \
