@@ -45,5 +45,9 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
     vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/priv-app/Google_Chrome.apk \
 
+# Keyboard Wallpaper Picker
+PRODUCT_PACKAGES += \
+    WallpaperPicker
+
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_versions.mk
