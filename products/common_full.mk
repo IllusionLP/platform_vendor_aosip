@@ -43,6 +43,10 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Messenger.apk:system/priv-app/Messenger.apk \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
     vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/priv-app/Google_Chrome.apk \
+    vendor/aosip/system/overlay/Maui_Settings.apk:system/vendor/overlay/Maui_Settings.apk \
+    vendor/aosip/system/overlay/Maui_Frameworks.apk:system/vendor/overlay/Maui_Frameworks.apk \
+    vendor/aosip/system/overlay/Maui_SystemUI.apk:system/vendor/overlay/Maui_SystemUI.apk \
+    vendor/aosip/system/overlay/Maui.zip:system/app/Maui.zip
 
 # Keyboard Wallpaper Picker
 PRODUCT_PACKAGES += \
