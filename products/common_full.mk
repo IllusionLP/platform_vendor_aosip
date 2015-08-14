@@ -51,7 +51,8 @@ PRODUCT_COPY_FILES += \
 # Keyboard Wallpaper Picker
 PRODUCT_PACKAGES += \
     WallpaperPicker \
-    SlimLauncher
+    SlimLauncher \
+    LockClock
 
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_versions.mk
