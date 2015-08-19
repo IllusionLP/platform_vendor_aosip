@@ -42,11 +42,17 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Messenger.apk:system/priv-app/Messenger.apk \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
-    vendor/aosip/overlay/common/packages/apps/Chrome.apk:system/priv-app/Google_Chrome.apk \
-    vendor/aosip/system/overlay/Maui_Settings.apk:system/vendor/overlay/Maui_Settings.apk \
-    vendor/aosip/system/overlay/Maui_Frameworks.apk:system/vendor/overlay/Maui_Frameworks.apk \
-    vendor/aosip/system/overlay/Maui_SystemUI.apk:system/vendor/overlay/Maui_SystemUI.apk \
-    vendor/aosip/system/overlay/Maui.zip:system/app/Maui.zip
+
+# Default theme
+PRODUCT_COPY_FILES += \
+    vendor/aosip/system/overlay/Aoisp_Settings.apk:system/vendor/overlay/Aoisp_Settings.apk \
+    vendor/aosip/system/overlay/Aosip_Contacts.apk:system/vendor/overlay/Aosip_Contacts.apk \
+    vendor/aosip/system/overlay/Aosip_Dialer.apk:system/vendor/overlay/Aosip_Dialer.apk \
+    vendor/aosip/system/overlay/Aosip_Frameworks.apk:system/vendor/overlay/Aosip_Frameworks.apk \
+    vendor/aosip/system/overlay/Aosip_Phone.apk:system/vendor/overlay/Aosip_Phone.apk \
+    vendor/aosip/system/overlay/Aosip_SystemUI.apk:system/vendor/overlay/Aosip_SystemUI.apk \
+    vendor/aosip/system/overlay/Aosip_Telecom.apk:system/vendor/overlay/Aosip_Telecom.apk \
+    vendor/aosip/system/overlay/Aosip_theme.zip:system/app/Aosip_theme.zip
 
 # Keyboard Wallpaper Picker
 PRODUCT_PACKAGES += \
