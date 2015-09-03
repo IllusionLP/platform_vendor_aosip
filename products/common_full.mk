@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/aosip/overlay/common/packages/apps/Messenger.apk:system/priv-app/Messenger.apk \
     vendor/aosip/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
+    vendor/aosip/overlay/common/packages/apps/NovaLauncher.apk:system/app/NovaLauncher.apk \
 
 # Default theme
 PRODUCT_COPY_FILES += \
