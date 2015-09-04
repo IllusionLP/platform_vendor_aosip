@@ -2,8 +2,8 @@
 
 # media effects
 PRODUCT_COPY_FILES +=  \
-    vendor/aosip/proprietary/common/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
-    vendor/aosip/proprietary/common/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
+    vendor/felix/proprietary/common/vendor/media/LMspeed_508.emd:system/vendor/media/LMspeed_508.emd \
+    vendor/felix/proprietary/common/vendor/media/PFFprec_600.emd:system/vendor/media/PFFprec_600.emd
 
 # video files
 $(call inherit-product-if-exists, frameworks/base/data/videos/VideoPackage2.mk)

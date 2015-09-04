@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := AOSIP
-PRODUCT_BRAND := AOSIP
+PRODUCT_NAME := felix
+PRODUCT_BRAND := felix
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # STK: overlay common to all devices with telephony
-ifneq ($(filter aosip_shamu aosip_hammerhead aosip_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter felix_shamu felix_hammerhead felix_mako,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
@@ -31,10 +31,10 @@ endif
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
-    vendor/aosip/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/felix/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 #Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/aosip/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/felix/overlay/common
 
 # Inherit common product build prop overrides
--include vendor/aosip/products/common_full.mk
+-include vendor/felix/products/common_full.mk
