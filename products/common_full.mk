@@ -55,11 +55,5 @@ PRODUCT_COPY_FILES += \
     vendor/aosip/system/overlay/Aosip_Telecom.apk:system/vendor/overlay/Aosip_Telecom.apk \
     vendor/aosip/system/overlay/Aosip_theme.zip:system/app/Aosip_theme.zip
 
-# Keyboard Wallpaper Picker
-PRODUCT_PACKAGES += \
-    WallpaperPicker \
-    SlimLauncher \
-    LockClock
-
 # Inherit common product build prop overrides
 -include vendor/aosip/products/common_versions.mk
