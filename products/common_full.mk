@@ -55,5 +55,11 @@ PRODUCT_COPY_FILES += \
     vendor/felix/system/overlay/Aosip_Telecom.apk:system/vendor/overlay/felix_Telecom.apk \
     vendor/felix/system/overlay/Aosip_theme.zip:system/app/felix_theme.zip
 
+# Keyboard Wallpaper Picker
+PRODUCT_PACKAGES += \
+    WallpaperPicker \
+    SlimLauncher \
+    LockClock
+
 # Inherit common product build prop overrides
 -include vendor/felix/products/common_versions.mk
