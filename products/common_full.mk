@@ -58,7 +58,6 @@ PRODUCT_COPY_FILES += \
 # Keyboard Wallpaper Picker
 PRODUCT_PACKAGES += \
     WallpaperPicker \
-    SlimLauncher \
     LockClock
 
 # Inherit common product build prop overrides
