@@ -44,21 +44,10 @@ PRODUCT_COPY_FILES += \
     vendor/felix/overlay/common/packages/apps/Callendar.apk:system/app/Google_Callendar.apk \
     vendor/felix/overlay/common/packages/apps/NovaLauncher.apk:system/app/NovaLauncher.apk \
 
-# Default theme
-PRODUCT_COPY_FILES += \
-    vendor/felix/system/overlay/Aoisp_Settings.apk:system/vendor/overlay/Aosip_Settings.apk \
-    vendor/felix/system/overlay/Aosip_Contacts.apk:system/vendor/overlay/felix_Contacts.apk \
-    vendor/felix/system/overlay/Aosip_Dialer.apk:system/vendor/overlay/felix_Dialer.apk \
-    vendor/felix/system/overlay/Aosip_Frameworks.apk:system/vendor/overlay/felix_Frameworks.apk \
-    vendor/felix/system/overlay/Aosip_Phone.apk:system/vendor/overlay/felix_Phone.apk \
-    vendor/felix/system/overlay/Aosip_SystemUI.apk:system/vendor/overlay/felix_SystemUI.apk \
-    vendor/felix/system/overlay/Aosip_Telecom.apk:system/vendor/overlay/felix_Telecom.apk \
-    vendor/felix/system/overlay/Aosip_theme.zip:system/app/felix_theme.zip
-
 # Keyboard Wallpaper Picker
 PRODUCT_PACKAGES += \
-    WallpaperPicker \
-    SlimLauncher \
+    AudioFX \
+    Eleven \
     LockClock
 
 # Inherit common product build prop overrides
