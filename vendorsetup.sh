@@ -1,7 +1,7 @@
-add_lunch_combo felix_flo-user
-add_lunch_combo felix_grouper-userdebug
-add_lunch_combo felix_hammerhead-user
-add_lunch_combo felix_mako-userdebug
-add_lunch_combo felix_manta-userdebug
-add_lunch_combo felix_shamu-user
+add_lunch_combo solo_flo-user
+add_lunch_combo solo_grouper-userdebug
+add_lunch_combo solo_hammerhead-user
+add_lunch_combo solo_mako-userdebug
+add_lunch_combo solo_manta-userdebug
+add_lunch_combo solo_shamu-user
 

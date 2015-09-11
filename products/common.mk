@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := felix
-PRODUCT_BRAND := felix
+PRODUCT_NAME := solo
+PRODUCT_BRAND := solo
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -15,15 +15,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.image-dex2oat-filter=everything \
     dalvik.vm.dex2oat-filter=everything
 
-#PRODUCT_PACKAGES += \
-#    IllusionBox \
-
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # STK: overlay common to all devices with telephony
-ifneq ($(filter felix_shamu felix_hammerhead felix_mako,$(TARGET_PRODUCT)),)
+ifneq ($(filter solo_shamu solo_hammerhead solo_mako,$(TARGET_PRODUCT)),)
 # Build SimToolKit
 PRODUCT_PACKAGES += \
     Stk
@@ -31,10 +28,10 @@ endif
 
 # Latin IME lib
 PRODUCT_COPY_FILES += \
-    vendor/felix/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
+    vendor/solo/proprietary/common/system/lib/libjni_latinime.so:system/lib/libjni_latinime.so
 
 #Common overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/felix/overlay/common
+PRODUCT_PACKAGE_OVERLAYS += vendor/solo/overlay/common
 
 # Inherit common product build prop overrides
--include vendor/felix/products/common_full.mk
+-include vendor/solo/products/common_full.mk
