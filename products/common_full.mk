@@ -1,18 +1,7 @@
 # Copy prebuilt files.
 ifneq ($(filter solo_hammerhead,$(TARGET_PRODUCT)),)
 PRODUCT_COPY_FILES += \
-    vendor/solo/prebuilt/common/bootanimations/BOOTANIMATION-1280x768.zip:system/media/bootanimation.zip \
         vendor/solo/prebuilt/common/app/OmaDmclient.apk:system/app/OmaDmclient.apk
-endif
-
-ifneq ($(filter solo_mako solo_grouper solo_flo,$(TARGET_PRODUCT)),)
-PRODUCT_COPY_FILES += \
-    vendor/solo/prebuilt/common/bootanimations/BOOTANIMATION-768x480.zip:system/media/bootanimation.zip
-endif
-
-ifneq ($(filter solo_shamu solo_manta,$(TARGET_PRODUCT)),)
-PRODUCT_COPY_FILES += \
-    vendor/solo/prebuilt/common/bootanimations/BOOTANIMATION-1440x2560.zip:system/media/bootanimation.zip
 endif
 
 # Apns
