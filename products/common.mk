@@ -1,6 +1,6 @@
 # Generic product
-PRODUCT_NAME := solo
-PRODUCT_BRAND := solo
+PRODUCT_NAME := shamu
+PRODUCT_BRAND := shamu
 PRODUCT_DEVICE := generic
 
 PRODUCT_PROPERTY_OVERRIDES += \
